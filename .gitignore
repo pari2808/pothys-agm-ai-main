@@ -1,0 +1,78 @@
+# =========================
+# Python
+# =========================
+backend/venv/
+venv/
+.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# =========================
+# Databases
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Uploaded Reports
+# =========================
+backend/uploads/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# =========================
+# Node / Expo
+# =========================
+frontend/node_modules/
+frontend/.expo/
+frontend/dist/
+
+# =========================
+# Debug / One-off Scripts
+# =========================
+backend/test_*.py
+backend/debug_*.py
+backend/check_*.py
+backend/verify_*.py
+backend/inspect_*.py
+backend/process_*_image.py
+backend/find_*.py
+backend/fix_*.py
+backend/force_*.py
+backend/get_*.py
+backend/trace_*.py
+backend/dump_*.py
+backend/copy_*.py
+backend/convert_*.py
+backend/create_*.py
+backend/recreate_*.py
+backend/alter_*.py
+
+# =========================
+# Misc
+# =========================
+changes.txt
+test_all.ps1
+package-lock.json
+*.log
+
+# =========================
+# AI / IDE
+# =========================
+frontend/.claude/
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db

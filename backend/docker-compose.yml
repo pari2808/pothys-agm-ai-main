@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  db:
+    image: ankane/pgvector:v0.5.1
+    container_name: pothys_agm_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: pothys_admin
+      POSTGRES_PASSWORD: pothys_password123
+      POSTGRES_DB: pothys_agm_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
